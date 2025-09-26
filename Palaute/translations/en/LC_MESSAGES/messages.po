@@ -26919,3 +26919,5 @@ msgstr "Some Secondary School Coursework"
 msgid "CCL Sponsored"
 msgstr "CCL Sponsored"
 
+msgid "CCL"
+msgstr ""
