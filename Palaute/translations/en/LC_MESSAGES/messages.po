@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-15 12:49+0000\n"
+"POT-Creation-Date: 2025-09-29 11:19+0000\n"
 "PO-Revision-Date: 2018-03-21 08:33+0200\n"
 "Last-Translator: \n"
 "Language: en\n"
@@ -74,7 +74,7 @@ msgstr ""
 #: templates/talent.html:522 templates/talent.html:629
 #: templates/talent.html:680 templates/talent_community.html:116
 #: templates/talent_community.html:271 templates/tc_add_talent.html:73
-#: templates/tc_add_talent.html:107 views/__init__.py:201
+#: templates/tc_add_talent.html:107 views/__init__.py:202
 #: views/api_handlers/position_ui_creation_modal.py:169 views/i18n.py:11
 #: views/i18n.py:47 views/i18n.py:64 views/i18n.py:89 views/i18n.py:90
 #: views/i18n.py:256 views/i18n.py:294 views/i18n.py:373 views/i18n.py:399
@@ -235,8 +235,8 @@ msgstr ""
 #: introduced_candidate_search.py:212 lib/cv_keskus/cv_keskus_form_model.py:109
 #: lib/jobilla/jobilla_form_model.py:91 lib/jobilla/jobilla_form_model.py:147
 #: lib/linkedin/recruiter_extractor_schema.py:176 lib/monster_form_model.py:118
-#: models/application_search_configuration.py:280
-#: models/application_search_configuration.py:772
+#: models/application_search_configuration.py:295
+#: models/application_search_configuration.py:787
 #: models/business_unit_form_model.py:25 talent_search.py:284
 #: talent_search.py:435 templates/applicant.html:1032
 #: templates/applicant.html:1081 templates/message_setting_template.html:150
@@ -267,7 +267,7 @@ msgid "Search criteria"
 msgstr ""
 
 #: advanced_search.py:879 advanced_search.py:882
-#: templates/layout_signed_in.html:78 views/__init__.py:196 views/i18n.py:463
+#: templates/layout_signed_in.html:78 views/__init__.py:197 views/i18n.py:463
 #: views/i18n.py:741
 msgid "Search"
 msgstr ""
@@ -409,7 +409,7 @@ msgstr ""
 #: lib/arbetsformedlingen/arbetsformedlingen_form_model.py:263
 #: messaging/talent_community_invitation.py:37
 #: models/application_form_model.py:230 models/talent_form_model.py:253
-#: position_search.py:466 templates/layout_main.html:106 views/__init__.py:183
+#: position_search.py:466 templates/layout_main.html:106 views/__init__.py:184
 #: views/i18n.py:150 views/i18n.py:631 views/i18n.py:764
 msgid "Yes"
 msgstr ""
@@ -423,7 +423,7 @@ msgstr ""
 #: lib/arbetsformedlingen/arbetsformedlingen_form_model.py:255
 #: lib/arbetsformedlingen/arbetsformedlingen_form_model.py:264
 #: models/application_form_model.py:230 models/talent_form_model.py:253
-#: position_search.py:466 views/__init__.py:184 views/i18n.py:728
+#: position_search.py:466 views/__init__.py:185 views/i18n.py:728
 msgid "No"
 msgstr ""
 
@@ -507,7 +507,7 @@ msgid "Time created"
 msgstr ""
 
 #: candidate_introduction_search.py:130
-#: models/application_search_configuration.py:352
+#: models/application_search_configuration.py:367
 msgid "Expiration"
 msgstr ""
 
@@ -580,9 +580,9 @@ msgstr ""
 
 #: actions/exporting_talent.py:72 actions/exporting_talent.py:92
 #: actions/support_actions.py:30 community_group_search.py:72
-#: models/application_search_configuration.py:245
-#: models/application_search_configuration.py:500
-#: models/application_search_configuration.py:743
+#: models/application_search_configuration.py:260
+#: models/application_search_configuration.py:515
+#: models/application_search_configuration.py:758
 #: models/custom_messages_model.py:31 models/flow_model.py:1002
 #: permissions_descriptions.py:273 talent_search.py:389 talent_search.py:427
 #: templates/release_notes.html:400 templates/release_notes.html:411
@@ -594,7 +594,7 @@ msgid "Talent Community"
 msgstr ""
 
 #: community_group_search.py:73 forms/get_forms.py:1313 talent_search.py:428
-#: templates/applicant.html:203 views/__init__.py:180 views/i18n.py:401
+#: templates/applicant.html:203 views/__init__.py:181 views/i18n.py:401
 msgid "Talent Community groups"
 msgstr ""
 
@@ -659,7 +659,7 @@ msgstr ""
 #: file_storage.py:632 file_storage.py:641 file_storage.py:650
 #: file_storage.py:664 file_storage.py:691 file_storage.py:745
 #: file_storage.py:815 file_storage.py:830 forms/get_forms.py:828
-#: views/__init__.py:146 views/applicants.py:2593 views/i18n.py:706
+#: views/__init__.py:147 views/applicants.py:2593 views/i18n.py:706
 msgid "File is not allowed. Allowed filetypes: {filetypes}"
 msgstr ""
 
@@ -680,8 +680,8 @@ msgstr "File is not allowed. Try a PDF, TXT or image instead."
 #: lib/linkedin/extractor_schema.py:12
 #: lib/linkedin/recruiter_extractor_schema.py:12
 #: lib/tyomarkkinatori/tyomarkkinatori_form_model.py:393
-#: models/application_search_configuration.py:339
-#: models/application_search_configuration.py:585
+#: models/application_search_configuration.py:354
+#: models/application_search_configuration.py:600
 #: models/talent_form_model.py:43 talent_search.py:262
 #: templates/applications.html:296 templates/welcome_process.html:82
 #: views/group_interview.py:77
@@ -705,8 +705,8 @@ msgstr ""
 #: lib/linkedin/extractor_schema.py:16
 #: lib/linkedin/recruiter_extractor_schema.py:16
 #: lib/tyomarkkinatori/tyomarkkinatori_form_model.py:399
-#: models/application_search_configuration.py:345
-#: models/application_search_configuration.py:595
+#: models/application_search_configuration.py:360
+#: models/application_search_configuration.py:610
 #: models/talent_form_model.py:50 talent_search.py:273
 #: templates/applications.html:297 templates/welcome_process.html:92
 #: views/group_interview.py:78
@@ -2000,15 +2000,15 @@ msgid ""
 "{unsubscribe_message}"
 msgstr ""
 
-#: permissions.py:833
+#: permissions.py:842
 msgid "Excludes roles"
 msgstr ""
 
-#: permissions.py:841
+#: permissions.py:850
 msgid "Needs roles"
 msgstr ""
 
-#: permissions.py:859
+#: permissions.py:868
 msgid "For me"
 msgstr ""
 
@@ -3893,7 +3893,7 @@ msgstr ""
 #: lib/jobilla/jobilla_form_model.py:154 lib/linkedin/extractor_schema.py:24
 #: lib/linkedin/recruiter_extractor_schema.py:24 lib/monster_form_model.py:164
 #: lib/tyomarkkinatori/tyomarkkinatori_form_model.py:387
-#: models/application_search_configuration.py:782
+#: models/application_search_configuration.py:797
 #: models/business_unit_form_model.py:30 models/talent_form_model.py:63
 #: models/talent_form_model.py:121 models/talent_form_model.py:224
 #: position_search.py:109 talent_search.py:436 templates/footer.html:9
@@ -3992,7 +3992,7 @@ msgstr ""
 #: position_search.py:700
 #: templates/settings_templates/company_profile_setting.html:6
 #: views/i18n.py:691 views/i18n.py:995 views/settings.py:167
-#: views/statistics_views.py:343
+#: views/statistics_views.py:348
 msgid "Company profile"
 msgstr ""
 
@@ -4042,15 +4042,15 @@ msgstr ""
 #: models/applicant_model.py:101 models/flow_model.py:990
 #: models/interview_slot.py:50 models/jobrequisition.py:36
 #: position_search.py:612 templates/my_tasks.html:320
-#: templates/my_tasks.html:346 views/statistics_views.py:228
-#: views/statistics_views.py:335
+#: templates/my_tasks.html:346 views/statistics_views.py:233
+#: views/statistics_views.py:340
 msgid "Rejected"
 msgstr "Rejected"
 
 #: models/applicant_model.py:100 models/flow_model.py:978
 #: position_search.py:623 templates/my_tasks.html:321
-#: templates/my_tasks.html:347 views/statistics_views.py:219
-#: views/statistics_views.py:334
+#: templates/my_tasks.html:347 views/statistics_views.py:224
+#: views/statistics_views.py:339
 msgid "Hired"
 msgstr "Hired"
 
@@ -4089,8 +4089,8 @@ msgstr ""
 msgid "Language"
 msgstr "Language"
 
-#: models/application_search_configuration.py:213
-#: models/application_search_configuration.py:472 position_search.py:710
+#: models/application_search_configuration.py:228
+#: models/application_search_configuration.py:487 position_search.py:710
 #: talent_search.py:212
 msgid "Indicators"
 msgstr ""
@@ -4124,7 +4124,7 @@ msgstr "CV"
 
 #: actions/candidate_introduction_actions.py:175
 #: actions/exporting_application.py:132
-#: models/application_search_configuration.py:260 talent_search.py:250
+#: models/application_search_configuration.py:275 talent_search.py:250
 #: views/i18n.py:585
 msgid "Profile image"
 msgstr ""
@@ -4204,17 +4204,17 @@ msgstr ""
 msgid "Status changes"
 msgstr ""
 
-#: models/application_search_configuration.py:235
-#: models/application_search_configuration.py:491
-#: models/application_search_configuration.py:737 models/message_new.py:44
+#: models/application_search_configuration.py:250
+#: models/application_search_configuration.py:506
+#: models/application_search_configuration.py:752 models/message_new.py:44
 #: models/message_new.py:47 talent_search.py:410 templates/applicant.html:837
-#: views/i18n.py:833 views/statistics_views.py:227
+#: views/i18n.py:833 views/statistics_views.py:232
 msgid "Received"
 msgstr ""
 
 #: actions/application_queries.py:118 actions/application_queries.py:156
 #: models/message_new.py:42 talent_search.py:411 templates/applicant.html:838
-#: views/i18n.py:839 views/statistics_views.py:229
+#: views/i18n.py:839 views/statistics_views.py:234
 msgid "Sent"
 msgstr ""
 
@@ -4244,7 +4244,7 @@ msgid "An error occurred while deleting the note"
 msgstr ""
 
 #: actions/notes_actions.py:93 actions/notes_actions.py:101
-#: talent_search.py:422 talent_search.py:423 views/__init__.py:202
+#: talent_search.py:422 talent_search.py:423 views/__init__.py:203
 #: views/i18n.py:794 views/i18n.py:799
 msgid "Discard changes"
 msgstr ""
@@ -4961,7 +4961,7 @@ msgstr ""
 #: views/message_views.py:771 views/message_views.py:786
 #: views/message_views.py:796 views/message_views.py:812 views/recright.py:218
 #: views/settings.py:665 views/settings.py:668 views/settings.py:1292
-#: views/statistics_views.py:302 views/support.py:21 views/support.py:33
+#: views/statistics_views.py:307 views/support.py:21 views/support.py:33
 #: views/talent_community_public_views.py:248
 #: views/talent_community_views.py:1427 views/talent_community_views.py:1452
 #: views/talent_community_views.py:1466 views/talent_mass_actions.py:125
@@ -5467,7 +5467,7 @@ msgid "Online interview at "
 msgstr ""
 
 #: actions/application_queries.py:113 actions/application_queries.py:153
-#: models/message_new.py:45 views/statistics_views.py:225
+#: models/message_new.py:45 views/statistics_views.py:230
 msgid "Read"
 msgstr ""
 
@@ -5512,9 +5512,9 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: actions/application_serialization.py:219
-#: models/application_search_configuration.py:169
-#: models/application_search_configuration.py:429
-#: models/application_search_configuration.py:670 templates/my_tasks.html:133
+#: models/application_search_configuration.py:184
+#: models/application_search_configuration.py:444
+#: models/application_search_configuration.py:685 templates/my_tasks.html:133
 #: views/automation_conditions.py:125 views/i18n.py:207
 msgid "Overdue"
 msgstr ""
@@ -5525,9 +5525,9 @@ msgid "Deadline ({date}) for finalizing this status step has already passed."
 msgstr ""
 
 #: actions/application_serialization.py:227
-#: models/application_search_configuration.py:171
-#: models/application_search_configuration.py:431
-#: models/application_search_configuration.py:672 templates/my_tasks.html:141
+#: models/application_search_configuration.py:186
+#: models/application_search_configuration.py:446
+#: models/application_search_configuration.py:687 templates/my_tasks.html:141
 #: views/automation_conditions.py:139 views/i18n.py:210
 msgid "Delayed"
 msgstr ""
@@ -5657,7 +5657,7 @@ msgstr ""
 
 #: actions/assessment_actions.py:100 forms/get_forms.py:822
 #: models/applicant_model.py:129 models/flow_model.py:388 models/referral.py:22
-#: views/i18n.py:118 views/i18n.py:211 views/statistics_views.py:221
+#: views/i18n.py:118 views/i18n.py:211 views/statistics_views.py:226
 msgid "New"
 msgstr "New"
 
@@ -5683,7 +5683,7 @@ msgstr ""
 msgid "Cancelled"
 msgstr ""
 
-#: actions/assessment_actions.py:128 views/__init__.py:163 views/i18n.py:332
+#: actions/assessment_actions.py:128 views/__init__.py:164 views/i18n.py:332
 msgid "Error"
 msgstr ""
 
@@ -5898,7 +5898,7 @@ msgid "Send new verification e-mail"
 msgstr ""
 
 #: actions/candidate_feedback_actions.py:50 models/custom_messages_model.py:38
-#: templates/applicant.html:338 views/statistics_views.py:218
+#: templates/applicant.html:338 views/statistics_views.py:223
 msgid "Feedback"
 msgstr ""
 
@@ -6008,8 +6008,8 @@ msgstr ""
 #: actions/candidate_introduction_actions.py:986
 #: actions/evaluation_actions.py:736 actions/job_ad_rendering.py:124
 #: actions/job_ad_rendering.py:275
-#: models/application_search_configuration.py:136
-#: models/application_search_configuration.py:796 templates/applicant.html:818
+#: models/application_search_configuration.py:137
+#: models/application_search_configuration.py:811 templates/applicant.html:818
 #: templates/applicant.html:872
 #: views/api_handlers/application_ui_handlers.py:1083
 #: views/api_handlers/application_ui_handlers.py:1160 views/i18n.py:999
@@ -6165,7 +6165,7 @@ msgstr ""
 #: actions/mepco_actions.py:150 actions/personio_actions.py:96
 #: actions/preonboarding.py:32 actions/refapp_actions.py:157
 #: actions/saima_actions.py:149 actions/sympa_actions.py:217
-#: actions/sympa_actions.py:221 views/register.py:332
+#: actions/sympa_actions.py:221 views/register.py:329
 msgid "{} is not configured."
 msgstr ""
 
@@ -6497,17 +6497,17 @@ msgid "Phone"
 msgstr "Phone"
 
 #: actions/exporting_application.py:119 actions/exporting_application.py:509
-#: models/application_search_configuration.py:187
-#: models/application_search_configuration.py:448
-#: models/application_search_configuration.py:689 models/flow_model.py:211
+#: models/application_search_configuration.py:202
+#: models/application_search_configuration.py:463
+#: models/application_search_configuration.py:704 models/flow_model.py:211
 #: views/i18n.py:988
 msgid "Step"
 msgstr ""
 
 #: actions/exporting_application.py:122 actions/exporting_application.py:521
-#: models/application_search_configuration.py:203
-#: models/application_search_configuration.py:463
-#: models/application_search_configuration.py:707 models/flow_model.py:977
+#: models/application_search_configuration.py:218
+#: models/application_search_configuration.py:478
+#: models/application_search_configuration.py:722 models/flow_model.py:977
 #: templates/applicant_summary.html:171 views/i18n.py:1006
 msgid "Outcome"
 msgstr ""
@@ -6630,8 +6630,8 @@ msgstr ""
 #: templates/release_notes.html:447 templates/release_notes.html:684
 #: templates/release_notes.html:859
 #: views/api_handlers/talent_ui_handlers.py:302 views/i18n.py:82
-#: views/navigation_bar.py:56 views/statistics_views.py:210
-#: views/statistics_views.py:333 views/talent_community_views.py:420
+#: views/navigation_bar.py:56 views/statistics_views.py:215
+#: views/statistics_views.py:338 views/talent_community_views.py:420
 #: views/talent_community_views.py:1074
 msgid "Applications"
 msgstr ""
@@ -6645,7 +6645,7 @@ msgid "Rating time"
 msgstr ""
 
 #: actions/exporting_candidate_feedback.py:43
-#: models/application_search_configuration.py:567
+#: models/application_search_configuration.py:582
 msgid "Rating"
 msgstr ""
 
@@ -6656,7 +6656,7 @@ msgstr ""
 #: templates/mailer_overlays.html:181 templates/message_overlay.html:61
 #: templates/message_overlay.html:103 templates/message_overlay.html:123
 #: templates/popups.html:156 templates/talent_community.html:103
-#: views/__init__.py:175 views/api_handlers/application_ui_handlers.py:1082
+#: views/__init__.py:176 views/api_handlers/application_ui_handlers.py:1082
 #: views/api_handlers/application_ui_handlers.py:1159 views/i18n.py:22
 #: views/i18n.py:113 views/i18n.py:253 views/i18n.py:315 views/i18n.py:444
 #: views/i18n.py:725 views/i18n.py:862 views/i18n.py:947
@@ -7473,7 +7473,7 @@ msgstr ""
 #: models/applicant_model.py:133 models/custom_messages_model.py:26
 #: models/flow_model.py:543 templates/add_group_interview.html:2
 #: templates/group_interview.html:3 views/i18n.py:864
-#: views/statistics_views.py:224
+#: views/statistics_views.py:229
 msgid "Group interview"
 msgstr ""
 
@@ -7607,7 +7607,7 @@ msgstr ""
 
 #: actions/instep_flow_phone_interview_actions.py:662
 #: models/applicant_model.py:131 models/custom_messages_model.py:25
-#: models/flow_model.py:436 views/statistics_views.py:223
+#: models/flow_model.py:436 views/statistics_views.py:228
 msgid "Phone interview"
 msgstr "Phone interview"
 
@@ -7859,9 +7859,9 @@ msgid "Video interview answered"
 msgstr ""
 
 #: actions/interview_actions.py:154 actions/job_ad_rendering.py:276
-#: models/application_search_configuration.py:156
-#: models/application_search_configuration.py:416
-#: models/application_search_configuration.py:660
+#: models/application_search_configuration.py:171
+#: models/application_search_configuration.py:431
+#: models/application_search_configuration.py:675
 #: templates/add_application.html:35
 msgid "Applied for"
 msgstr "Applied for"
@@ -8036,7 +8036,7 @@ msgstr ""
 
 #: actions/job_ad_rendering.py:36 actions/job_ad_rendering.py:175
 #: forms/get_forms.py:831 forms/get_forms.py:1255 forms/get_forms.py:1280
-#: forms/get_forms.py:1324 views/__init__.py:152 views/applicants.py:2591
+#: forms/get_forms.py:1324 views/__init__.py:153 views/applicants.py:2591
 msgid "Allowed filetypes: {filetypes}. Max file size 10 MB"
 msgstr ""
 
@@ -8078,12 +8078,12 @@ msgid "We expect the following things from applicants:"
 msgstr "What we need from you"
 
 #: actions/job_ad_rendering.py:48 forms/get_forms.py:827
-#: forms/get_forms.py:1253 views/__init__.py:145
+#: forms/get_forms.py:1253 views/__init__.py:146
 msgid "File is not allowed"
 msgstr "File is not allowed"
 
 #: actions/job_ad_rendering.py:51 forms/get_forms.py:830
-#: forms/get_forms.py:1254 forms/get_forms.py:1328 views/__init__.py:148
+#: forms/get_forms.py:1254 forms/get_forms.py:1328 views/__init__.py:149
 #: views/applicants.py:2595 views/i18n.py:708
 msgid "File is too large. The size limit is 10mb"
 msgstr ""
@@ -8340,7 +8340,7 @@ msgstr ""
 msgid "Add profile picture"
 msgstr ""
 
-#: actions/job_ad_rendering.py:135 views/__init__.py:188
+#: actions/job_ad_rendering.py:135 views/__init__.py:189
 msgid "Join"
 msgstr ""
 
@@ -8798,7 +8798,7 @@ msgid "Mode"
 msgstr ""
 
 #: actions/job_ad_rendering.py:277 forms/get_forms.py:1275
-#: views/__init__.py:159 views/i18n.py:645
+#: views/__init__.py:160 views/i18n.py:645
 msgid "Please fix the errors and try again."
 msgstr ""
 
@@ -9516,7 +9516,7 @@ msgstr ""
 #: templates/positions.html:6 templates/positions.html:14
 #: templates/positions.html:15 templates/release_notes.html:1043
 #: templates/release_notes.html:1045 templates/talent_community.html:84
-#: views/navigation_bar.py:48 views/statistics_views.py:332
+#: views/navigation_bar.py:48 views/statistics_views.py:337
 msgid "Positions"
 msgstr "Positions"
 
@@ -9829,34 +9829,34 @@ msgstr ""
 msgid "Something went wrong"
 msgstr ""
 
-#: actions/user_management_actions.py:1014
+#: actions/user_management_actions.py:1008
 msgid "Both password and confirm password should be provided"
 msgstr ""
 
-#: actions/user_management_actions.py:1019 forms/__init__.py:475
+#: actions/user_management_actions.py:1013 forms/__init__.py:475
 #: forms/__init__.py:508
 msgid "The passwords do not match"
 msgstr "The passwords do not match"
 
-#: actions/user_management_actions.py:1023 forms/__init__.py:469
+#: actions/user_management_actions.py:1017 forms/__init__.py:469
 #: forms/__init__.py:502
 msgid "The password must be at least 12 characters"
 msgstr "Password must be at least 12 characters long"
 
-#: actions/user_management_actions.py:1027 forms/__init__.py:471
+#: actions/user_management_actions.py:1021 forms/__init__.py:471
 #: forms/__init__.py:504
 msgid "The password must be no more than 128 characters"
 msgstr ""
 
-#: actions/user_management_actions.py:1032
+#: actions/user_management_actions.py:1026
 msgid "The password should not contain repetitive or sequential strings"
 msgstr ""
 
-#: actions/user_management_actions.py:1036
+#: actions/user_management_actions.py:1030
 msgid "The password should not contain user names"
 msgstr ""
 
-#: actions/user_management_actions.py:1047
+#: actions/user_management_actions.py:1041
 msgid "User updated successfully"
 msgstr ""
 
@@ -10052,7 +10052,7 @@ msgid "New position"
 msgstr ""
 
 #: actions/widget_actions.py:365 actions/widget_actions.py:426
-#: views/statistics_views.py:207
+#: views/statistics_views.py:212
 msgid "All positions"
 msgstr ""
 
@@ -10121,7 +10121,7 @@ msgid ""
 msgstr ""
 
 #: actions/ai_assistants/application_summary_assistants.py:325
-#: views/__init__.py:198
+#: views/__init__.py:199
 msgid "Search for skills (e.g., experience in years for the role)"
 msgstr ""
 
@@ -10136,7 +10136,7 @@ msgid "Not enough text found"
 msgstr ""
 
 #: actions/ai_assistants/application_summary_assistants.py:400
-#: views/__init__.py:190
+#: views/__init__.py:191
 msgid "AI Insights"
 msgstr ""
 
@@ -10191,7 +10191,7 @@ msgid ""
 "agents, and provide 24/7 assistance to your users."
 msgstr ""
 
-#: actions/ai_assistants/job_description_assistants.py:48 views/__init__.py:187
+#: actions/ai_assistants/job_description_assistants.py:48 views/__init__.py:188
 msgid "AI Assistant"
 msgstr ""
 
@@ -11055,7 +11055,7 @@ msgid "Repeat the password"
 msgstr "Repeat the password"
 
 #: forms/__init__.py:479 forms/__init__.py:482 forms/__init__.py:513
-#: forms/__init__.py:515 views/register.py:372
+#: forms/__init__.py:515 views/register.py:369
 msgid "Invalid password"
 msgstr ""
 
@@ -12841,7 +12841,7 @@ msgstr ""
 
 #: lib/cv_online/cv_online_form_model.py:11
 #: lib/linkedin_basic/linkedin_basic_form_model.py:15 views/i18n.py:948
-#: views/statistics_views.py:220
+#: views/statistics_views.py:225
 msgid "Monthly"
 msgstr ""
 
@@ -13041,7 +13041,7 @@ msgid "Decsription"
 msgstr ""
 
 #: lib/linkedin_basic/linkedin_basic_form_model.py:14
-#: views/statistics_views.py:233
+#: views/statistics_views.py:238
 msgid "Yearly"
 msgstr ""
 
@@ -13054,12 +13054,12 @@ msgid "Every two weeks"
 msgstr ""
 
 #: lib/linkedin_basic/linkedin_basic_form_model.py:18 views/i18n.py:970
-#: views/statistics_views.py:232
+#: views/statistics_views.py:237
 msgid "Weekly"
 msgstr ""
 
 #: lib/linkedin_basic/linkedin_basic_form_model.py:19 views/i18n.py:937
-#: views/statistics_views.py:215
+#: views/statistics_views.py:220
 msgid "Daily"
 msgstr ""
 
@@ -13879,7 +13879,7 @@ msgid "[TalentAdore] Update on your Talent Community access"
 msgstr ""
 
 #: models/applicant_model.py:102 templates/my_tasks.html:319
-#: templates/my_tasks.html:345 views/statistics_views.py:336
+#: templates/my_tasks.html:345 views/statistics_views.py:341
 msgid "Withdrawn"
 msgstr ""
 
@@ -13924,7 +13924,7 @@ msgid "Applicant unwithdrawn"
 msgstr ""
 
 #: models/applicant_model.py:130 models/custom_messages_model.py:24
-#: models/flow_model.py:403 views/statistics_views.py:209
+#: models/flow_model.py:403 views/statistics_views.py:214
 msgid "Application review"
 msgstr "Application review"
 
@@ -13953,26 +13953,30 @@ msgstr ""
 msgid "Approve"
 msgstr ""
 
-#: models/application_search_configuration.py:165
-#: models/application_search_configuration.py:425
-#: models/application_search_configuration.py:666
+#: models/application_search_configuration.py:148
+msgid "Latest note"
+msgstr ""
+
+#: models/application_search_configuration.py:180
+#: models/application_search_configuration.py:440
+#: models/application_search_configuration.py:681
 msgid "Remarks"
 msgstr ""
 
-#: models/application_search_configuration.py:170
-#: models/application_search_configuration.py:430
-#: models/application_search_configuration.py:671
+#: models/application_search_configuration.py:185
+#: models/application_search_configuration.py:445
+#: models/application_search_configuration.py:686
 msgid "Candidate has passed the step’s deadline"
 msgstr ""
 
-#: models/application_search_configuration.py:172
-#: models/application_search_configuration.py:432
-#: models/application_search_configuration.py:673
+#: models/application_search_configuration.py:187
+#: models/application_search_configuration.py:447
+#: models/application_search_configuration.py:688
 msgid "Candidate has stayed on the step longer than the target lead time is"
 msgstr ""
 
-#: models/application_search_configuration.py:379
-#: models/application_search_configuration.py:881
+#: models/application_search_configuration.py:394
+#: models/application_search_configuration.py:896
 msgid "Skill match"
 msgstr ""
 
@@ -15567,8 +15571,8 @@ msgstr ""
 msgid "Regards, {user_name}, {company_name}"
 msgstr ""
 
-#: models/user_model.py:858 models/user_model.py:874
-#: views/statistics_views.py:208
+#: models/user_model.py:811 models/user_model.py:827
+#: views/statistics_views.py:213
 msgid "All users"
 msgstr ""
 
@@ -15748,7 +15752,7 @@ msgid "Schedule message"
 msgstr ""
 
 #: templates/applicant.html:537 templates/message_overlay.html:9
-#: views/__init__.py:195 views/applicants.py:665
+#: views/__init__.py:196 views/applicants.py:665
 #: views/application_actions_api.py:336
 #: views/talent_community_manage_views.py:66
 #: views/talent_community_views.py:325 views/talent_community_views.py:782
@@ -16143,7 +16147,7 @@ msgstr ""
 msgid "Overall ratings"
 msgstr ""
 
-#: templates/applicant_summary.html:64 views/statistics_views.py:212
+#: templates/applicant_summary.html:64 views/statistics_views.py:217
 msgid "Average"
 msgstr ""
 
@@ -20689,7 +20693,7 @@ msgstr ""
 msgid "Add video interviews"
 msgstr ""
 
-#: templates/stats.html:20 views/statistics_views.py:214
+#: templates/stats.html:20 views/statistics_views.py:219
 msgid "Talent feedback"
 msgstr ""
 
@@ -21440,153 +21444,153 @@ msgstr ""
 msgid "Job ad example"
 msgstr ""
 
-#: views/__init__.py:143
+#: views/__init__.py:144
 msgid "Word repetitions found"
 msgstr ""
 
-#: views/__init__.py:144
+#: views/__init__.py:145
 msgid "Word sequences found"
 msgstr ""
 
-#: views/__init__.py:149
+#: views/__init__.py:150
 msgid "File is too large. The size limit is {size}"
 msgstr ""
 
-#: views/__init__.py:150
+#: views/__init__.py:151
 msgid "Allowed image types: {imagetypes}"
 msgstr ""
 
-#: views/__init__.py:151
+#: views/__init__.py:152
 msgid "Please choose a photo that's at least {dimensions} pixels wide."
 msgstr ""
 
-#: views/__init__.py:154
+#: views/__init__.py:155
 msgid "Invalid social security number!"
 msgstr ""
 
-#: views/__init__.py:155
+#: views/__init__.py:156
 msgid "Invalid IBAN"
 msgstr ""
 
-#: views/__init__.py:156
+#: views/__init__.py:157
 msgid "IBAN is too short"
 msgstr "IBAN is too short"
 
-#: views/__init__.py:157
+#: views/__init__.py:158
 msgid "Spaces are not allowed in IBAN"
 msgstr "Spaces are not allowed in IBAN"
 
-#: views/__init__.py:158
+#: views/__init__.py:159
 msgid "Something went wrong, please try again in a few minutes."
 msgstr ""
 
-#: views/__init__.py:160
+#: views/__init__.py:161
 msgid "Success"
 msgstr ""
 
-#: views/__init__.py:161 views/i18n.py:333
+#: views/__init__.py:162 views/i18n.py:333
 msgid "Info"
 msgstr ""
 
-#: views/__init__.py:162 views/i18n.py:334
+#: views/__init__.py:163 views/i18n.py:334
 msgid "Warning"
 msgstr ""
 
-#: views/__init__.py:164
+#: views/__init__.py:165
 msgid "{} has been added to calendar"
 msgstr ""
 
-#: views/__init__.py:165
+#: views/__init__.py:166
 msgid "Searching"
 msgstr ""
 
-#: views/__init__.py:166
+#: views/__init__.py:167
 msgid "No colleagues found"
 msgstr ""
 
-#: views/__init__.py:167
+#: views/__init__.py:168
 msgid "Today's calendar is empty"
 msgstr ""
 
-#: views/__init__.py:168
+#: views/__init__.py:169
 msgid "Nothing planned yet? Click on a time slot to start adding your agenda."
 msgstr ""
 
-#: views/__init__.py:170
+#: views/__init__.py:171
 msgid "Select color"
 msgstr ""
 
-#: views/__init__.py:171
+#: views/__init__.py:172
 msgid "{} years"
 msgstr ""
 
-#: views/__init__.py:172
+#: views/__init__.py:173
 msgid "Present"
 msgstr ""
 
-#: views/__init__.py:173
+#: views/__init__.py:174
 msgid "Hi, I'm your AI Support Agent. How may I help you?"
 msgstr ""
 
-#: views/__init__.py:176
+#: views/__init__.py:177
 msgid "AI Support Agent"
 msgstr ""
 
-#: views/__init__.py:177
+#: views/__init__.py:178
 msgid "Thank you for your contact!"
 msgstr ""
 
-#: views/__init__.py:178
+#: views/__init__.py:179
 msgid "We will reply you shortly."
 msgstr ""
 
-#: views/__init__.py:179
+#: views/__init__.py:180
 msgid "Session closed"
 msgstr ""
 
-#: views/__init__.py:181
+#: views/__init__.py:182
 msgid "Did this answer your question?"
 msgstr ""
 
-#: views/__init__.py:182 views/__init__.py:193
+#: views/__init__.py:183 views/__init__.py:194
 msgid "Contact support"
 msgstr ""
 
-#: views/__init__.py:185
+#: views/__init__.py:186
 msgid "You"
 msgstr ""
 
-#: views/__init__.py:186
+#: views/__init__.py:187
 msgid "Open guides"
 msgstr ""
 
-#: views/__init__.py:189
+#: views/__init__.py:190
 msgid "Processing AI Insights, please wait..."
 msgstr ""
 
-#: views/__init__.py:191
+#: views/__init__.py:192
 msgid "Not enough data available for AI insights."
 msgstr ""
 
-#: views/__init__.py:192
+#: views/__init__.py:193
 msgid "Support"
 msgstr ""
 
-#: views/__init__.py:194
+#: views/__init__.py:195
 msgid ""
 "Facing an issue or a bug? Please provide details on what happened and how"
 " to reproduce it."
 msgstr ""
 
-#: views/__init__.py:197
+#: views/__init__.py:198
 msgid "Close search"
 msgstr ""
 
-#: views/__init__.py:199 views/i18n.py:147 views/i18n.py:624
+#: views/__init__.py:200 views/i18n.py:147 views/i18n.py:624
 msgid "Unsaved changes"
 msgstr ""
 
-#: views/__init__.py:200 views/i18n.py:84 views/i18n.py:493
+#: views/__init__.py:201 views/i18n.py:84 views/i18n.py:493
 msgid "Are you sure you want to discard the changes?"
 msgstr ""
 
@@ -24357,49 +24361,49 @@ msgstr ""
 msgid "Interviewers modified successfully"
 msgstr ""
 
-#: views/register.py:197
+#: views/register.py:194
 msgid "Verify your TalentAdore company e-mail"
 msgstr ""
 
-#: views/register.py:207
+#: views/register.py:204
 msgid "Verification email sent"
 msgstr ""
 
-#: views/register.py:207
+#: views/register.py:204
 msgid "Verification email will be sent shortly"
 msgstr ""
 
-#: views/register.py:219
+#: views/register.py:216
 msgid "Verification token expired!"
 msgstr ""
 
-#: views/register.py:233
+#: views/register.py:230
 msgid "Email verified!"
 msgstr ""
 
-#: views/register.py:247
+#: views/register.py:244
 msgid ""
 "If the user exists, email with a link to reset password will be sent in a"
 " moment."
 msgstr ""
 
-#: views/register.py:269 views/settings.py:714
+#: views/register.py:266 views/settings.py:714
 msgid "Password changed"
 msgstr ""
 
-#: views/register.py:319 views/register.py:332
+#: views/register.py:316 views/register.py:329
 msgid "Authorization unsuccessful"
 msgstr ""
 
-#: views/register.py:370 views/register.py:383
+#: views/register.py:367 views/register.py:380
 msgid "Too many wrong password attempts in the last {} minutes."
 msgstr ""
 
-#: views/register.py:387
+#: views/register.py:384
 msgid "Username or password you entered is incorrect."
 msgstr ""
 
-#: views/register.py:391
+#: views/register.py:388
 msgid "Please log in with your main credential"
 msgstr ""
 
@@ -24457,7 +24461,7 @@ msgid ""
 "it."
 msgstr ""
 
-#: views/settings.py:612 views/statistics_views.py:309
+#: views/settings.py:612 views/statistics_views.py:314
 #: views/talent_community_views.py:1750 views/talent_community_views.py:1768
 msgid "Some information is incorrect. Please try again."
 msgstr ""
@@ -24532,73 +24536,73 @@ msgstr ""
 msgid "Error occurred. If it persists, please contact our customer support: {}"
 msgstr ""
 
-#: views/statistics_views.py:211
+#: views/statistics_views.py:216
 msgid "Average talent feedback"
 msgstr ""
 
-#: views/statistics_views.py:213
+#: views/statistics_views.py:218
 msgid "Candidate experience"
 msgstr ""
 
-#: views/statistics_views.py:216
+#: views/statistics_views.py:221
 msgid "Efficiency"
 msgstr ""
 
-#: views/statistics_views.py:217
+#: views/statistics_views.py:222
 msgid "Face to face"
 msgstr ""
 
-#: views/statistics_views.py:222
+#: views/statistics_views.py:227
 msgid "Not enough data yet"
 msgstr ""
 
-#: views/statistics_views.py:226
+#: views/statistics_views.py:231
 msgid "Received verbal feedback"
 msgstr ""
 
-#: views/statistics_views.py:230
+#: views/statistics_views.py:235
 msgid "Total processing time"
 msgstr ""
 
-#: views/statistics_views.py:231
+#: views/statistics_views.py:236
 msgid "Viewed"
 msgstr ""
 
-#: views/statistics_views.py:234
+#: views/statistics_views.py:239
 msgid "NPS score"
 msgstr ""
 
-#: views/statistics_views.py:235
+#: views/statistics_views.py:240
 msgid "Score"
 msgstr ""
 
-#: views/statistics_views.py:236
+#: views/statistics_views.py:241
 msgid "Detractors"
 msgstr ""
 
-#: views/statistics_views.py:237
+#: views/statistics_views.py:242
 msgid "Passives"
 msgstr ""
 
-#: views/statistics_views.py:238
+#: views/statistics_views.py:243
 msgid "Promoters"
 msgstr ""
 
-#: views/statistics_views.py:239
+#: views/statistics_views.py:244
 msgid "Total answers"
 msgstr ""
 
-#: views/statistics_views.py:240
+#: views/statistics_views.py:245
 msgid ""
 "How likely is it that you would <span>recommend</span> this company to a "
 "friend or colleague?"
 msgstr ""
 
-#: views/statistics_views.py:242
+#: views/statistics_views.py:247
 msgid "Response rate: {percentage} ({answered} out of {total})"
 msgstr ""
 
-#: views/statistics_views.py:313
+#: views/statistics_views.py:318
 msgid "Feedback text is deleted"
 msgstr ""
 
@@ -26919,8 +26923,3 @@ msgstr "Some Secondary School Coursework"
 msgid "CCL Sponsored"
 msgstr "CCL Sponsored"
 
-msgid "CCL"
-msgstr ""
-
-msgid "test"
-msgstr ""
